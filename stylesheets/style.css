@@ -1,0 +1,24 @@
+@import url(header.css);
+@import url(container.css);
+:root {
+    --brand-color: #e07b67;
+    --dark-10: #121214;
+    --dark-20: #17171A;
+    --dark-30: #202024;
+    --dark-40: #252529;
+    --dark-50: #AFABB6;
+    --dark-60: #FFFFFF;
+    --primary-font: 'Space Grotesk', sans-serif;
+    --secondary-font: 'Inter', sans-serif; 
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    overflow-x: hidden;
+    background-color: var(--dark-10);
+    min-height: 100vh;
+}
+
